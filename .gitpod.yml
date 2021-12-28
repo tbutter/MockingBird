@@ -1,5 +1,5 @@
 tasks:
-  - before: sudo apt update && sudo apt install python3-pip && pip3 install torch==1.10.1+cpu torchvision==0.11.2+cpu torchaudio==0.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html && sudo apt install ffmpeg && pip install -r requirements.txt && pip install webrtcvad-wheels
+  - before: sudo apt update && sudo apt install -y python3-pip && pip3 install torch==1.10.1+cpu torchvision==0.11.2+cpu torchaudio==0.10.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html && sudo apt install -y ffmpeg && pip install -r requirements.txt && pip install webrtcvad-wheels
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
